@@ -5,11 +5,15 @@ import { Register } from './func/Register.jsx';
 import { DashboardPublic } from './pages/Dash_public.jsx';
 import { DashboardUser } from './pages/Dash_user.jsx';
 import { Logout } from './func/Logout.jsx';
+import { Analytics } from "@vercel/analytics/react"
 
+//require('dotenv').config();
 const App = () => {
+
   return (
     <Router>
       <div className='container'>
+      <Analytics />
         <Routes>
           <Route path="/" element={<DashboardPublic />} />
           <Route path="/user" element={<DashboardUser />} />
