@@ -1,0 +1,26 @@
+[
+    {
+        "nama":"saepul millah",
+        "alamat":"pajada2",
+        "username":"azpwkk",
+        "email":"azpwkk@gmail.com",
+        "password":"1234567890",
+        "address":"xtest",
+        "balance":"10000",
+        "devices":"android",
+        "history":
+        [
+            {
+                "date":"091211991",
+                "opt":"kirim",
+                "value":"0",
+                "pengirim":"xtest",
+                "penerima":"xtest1",
+                "txhash":"xtesthash"
+            }
+        ],
+        "key":"12345",
+        "token":"12345",
+        "otp":"12345"
+    }
+]

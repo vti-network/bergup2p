@@ -1,0 +1,49 @@
+/* AppLayout.css */
+
+/* Styles for the header */
+.header {
+    background-color: #bda9a994; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+}
+
+/* Styles for the left and right sections */
+.left,
+.right {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the navbar */
+.navbar-mod {
+    background-color: rgb(240, 231, 231);
+    color: #000;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top:0;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items to the start of the container */
+}
+
+.navbar-mod.hidden {
+    display: none;
+}
+
+/* Styles for the navbar links */
+.navbar-link {
+    text-decoration: none; /* Remove underline */
+    color: #000000; /* Set link color */
+    padding: 10px; /* Add padding for better spacing */
+    display: block; /* Make links block-level for full width */
+}
+
+.navbar-link:hover {
+    background-color: #dddddd0a; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+}
